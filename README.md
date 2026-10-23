@@ -11,18 +11,18 @@ Simply paste a public GitHub URL or repository slug (`owner/repo`), and CodeSens
 
 ---
 
-## 🌟 Key Features
+##  Key Features
 
-- **⚡ Fast Git Clone Engine**: Clones public GitHub repositories using GitPython with shallow depth (`depth=1`) for high-speed download.
-- **🔍 Tech Stack Detection**: Automatically scans manifests (`package.json`, `requirements.txt`, `pyproject.toml`, `Dockerfile`, `pom.xml`, `tsconfig.json`, `tailwind.config.js`, etc.) to identify frameworks, databases, and build tools.
-- **📊 Programming Language Breakdown**: Calculates exact line and byte share percentages for Python, JavaScript, TypeScript, Java, C++, Go, Rust, HTML, CSS, Markdown, JSON, YAML, and more.
-- **🤖 AI Architectural Summary**: Sends extracted repository metadata to OpenAI (`gpt-4o-mini`) to generate structured JSON insights covering project purpose, architecture, technology rationale, folder roles, key features, and developer onboarding instructions. *(Includes an automatic algorithmic fallback mode if no API key is provided).*
-- **📁 Interactive Directory & README Explorer**: Visualize codebase folder hierarchies and inspect `README.md` documentation directly inside a glassmorphic dark-mode dashboard.
-- **🛡️ Robust Error Handling**: Clean user feedback for invalid URLs, private/missing repositories, clone failures, network errors, and unconfigured API keys.
+- ** Fast Git Clone Engine**: Clones public GitHub repositories using GitPython with shallow depth (`depth=1`) for high-speed download.
+- ** Tech Stack Detection**: Automatically scans manifests (`package.json`, `requirements.txt`, `pyproject.toml`, `Dockerfile`, `pom.xml`, `tsconfig.json`, `tailwind.config.js`, etc.) to identify frameworks, databases, and build tools.
+- ** Programming Language Breakdown**: Calculates exact line and byte share percentages for Python, JavaScript, TypeScript, Java, C++, Go, Rust, HTML, CSS, Markdown, JSON, YAML, and more.
+- ** AI Architectural Summary**: Sends extracted repository metadata to OpenAI (`gpt-4o-mini`) to generate structured JSON insights covering project purpose, architecture, technology rationale, folder roles, key features, and developer onboarding instructions. *(Includes an automatic algorithmic fallback mode if no API key is provided).*
+- ** Interactive Directory & README Explorer**: Visualize codebase folder hierarchies and inspect `README.md` documentation directly inside a glassmorphic dark-mode dashboard.
+- ** Robust Error Handling**: Clean user feedback for invalid URLs, private/missing repositories, clone failures, network errors, and unconfigured API keys.
 
 ---
 
-## 🛠️ Tech Stack
+##  Tech Stack
 
 ### Backend
 - **Python 3.11**
@@ -42,7 +42,7 @@ Simply paste a public GitHub URL or repository slug (`owner/repo`), and CodeSens
 
 ---
 
-## 📂 Project Structure
+##  Project Structure
 
 ```
 CodeSense-AI/
@@ -108,7 +108,7 @@ CodeSense-AI/
 
 ---
 
-## 🔌 REST API Endpoints
+##  REST API Endpoints
 
 | Method | Endpoint | Description |
 | :--- | :--- | :--- |
@@ -121,7 +121,7 @@ CodeSense-AI/
 
 ---
 
-## 🚀 Setup & Installation Instructions
+##  Setup & Installation Instructions
 
 ### Prerequisites
 - Python 3.11+ installed
@@ -190,6 +190,6 @@ CodeSense-AI/
 
 ---
 
-## 📝 License
+##  License
 
 This project is open-source and built for portfolio and software engineering demonstration purposes.
